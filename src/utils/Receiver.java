@@ -2,6 +2,8 @@ package utils;
 
 import java.util.function.BiConsumer;
 
+// Listens to events emitted by the Emitter they registered to
+
 public class Receiver<T> {
 	protected BiConsumer<String, T> command;
 	

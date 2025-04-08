@@ -5,6 +5,7 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
 
+// Stores all text-formatting related information, which can be useful in rendering text onto the screen.
 
 public class TextFormat {
 	public static final Color TRANSPARENT = new Color(0,0,0,0); 

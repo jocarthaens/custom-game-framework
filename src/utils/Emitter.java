@@ -2,6 +2,8 @@ package utils;
 
 import java.util.HashSet;
 
+// Broadcasts events on its Receiver listeners.
+
 public class Emitter<T> {
     protected HashSet<Receiver<T>> listeners;
     protected String eventName;

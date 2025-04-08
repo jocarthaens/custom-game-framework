@@ -2,6 +2,7 @@ package utils;
 
 import java.util.Arrays;
 
+// Stores arrays of bits by using an array of long and manipulating long values with bit operators
 // <insert credits to libGDX for implementation details on bitset>
 
 public class BitVector {

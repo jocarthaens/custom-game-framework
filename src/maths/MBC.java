@@ -2,6 +2,8 @@ package maths;
 
 import utils.Copyable;
 
+// Minimum Bounding Circle
+
 public class MBC implements Copyable<MBC> {
 	private float cx, cy = 0;
 	private float radius = 0;

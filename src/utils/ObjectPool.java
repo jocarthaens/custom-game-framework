@@ -3,6 +3,8 @@ package utils;
 import java.util.HashSet;
 import java.util.LinkedList;
 
+// Initializes and manages its own pool of objects
+
 public abstract class ObjectPool<T> {
 	protected LinkedList<T> pooledObjects;
 	protected HashSet<T> usedObjects; 

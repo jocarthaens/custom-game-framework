@@ -2,6 +2,8 @@ package maths;
 
 import utils.Copyable;
 
+// Axis-Aligned Bounding Box
+
 public class AABB implements Copyable<AABB> {
 	private float lowerX = 0;
 	private float lowerY = 0;
