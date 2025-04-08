@@ -1,1 +1,12 @@
-A work-in-progress project that attempts to create a simple, custom game framework for my 2D topdown games from scratch, with the goal of making the program as memory-efficient as possible while making it modular. Features a sprite rendering system, sprite classes, text formatting, and a library for storing graphics-related class objects, a collision system, gui system, maths and vectors, spatial navigation classes, keyboard and mosue input, audio, and an entity system.
+A work-in-progress project that attempts to create a simple, custom game framework for my 2D topdown games from scratch, with the goal of making the program as memory-efficient as possible while making it modular. Prone to heavy editing changes (some features will be removed or revamped).
+
+Features:
++Sprite rendering system, sprite classes, image/sprite storage
++text formatting
++collision system, 
++gui system
++maths, geometry, vectors and transforms
++spatial navigation classes, 
++keyboard and mouse input, 
++audio
++entity system
