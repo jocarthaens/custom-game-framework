@@ -1,4 +1,4 @@
-A work-in-progress project that attempts to create a simple, custom game framework for my 2D topdown games from scratch, with the goal of making the program as memory-efficient as possible while making it modular. Prone to heavy editing changes (some features will be removed or revamped).
+A work-in-progress project that attempts to create a simple, custom game framework for my 2D topdown games from scratch, with the goal of making the program as memory-efficient as possible while making it modular. Prone to heavy editing changes (some features will be removed or revamped). This project is suitable only for single-threaded applications.
 
 Features:
 +Sprite rendering system, sprite classes, image/sprite storage
