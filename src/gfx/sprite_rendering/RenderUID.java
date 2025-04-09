@@ -2,6 +2,8 @@ package gfx.sprite_rendering;
 
 import java.util.UUID;
 
+// Unique Renderable ID
+
 public class RenderUID {
 	public final UUID id;
 	

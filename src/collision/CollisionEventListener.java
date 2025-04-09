@@ -2,6 +2,8 @@ package collision;
 
 import collision.CollisionSystem.Collider;
 
+// Interface for objects that wants to listen for collision events
+
 public interface CollisionEventListener {
 	
 	public static enum CollisionEvent {

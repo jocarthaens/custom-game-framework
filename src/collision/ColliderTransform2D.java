@@ -1,5 +1,6 @@
 package collision;
 
+// Transform component of Colliders
 
 public class ColliderTransform2D {
 	protected static final float FLOAT_EPSILON = 1e-6f;

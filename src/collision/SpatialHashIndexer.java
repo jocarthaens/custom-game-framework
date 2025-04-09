@@ -8,6 +8,8 @@ import java.util.Stack;
 
 import collision.CollisionSystem.Collider;
 
+// Maps colliders in spatial cell coordinates using efficient spatial hashing (uses long to store x and y coordinates of a cell)
+
 public class SpatialHashIndexer {
 	protected float cellSize;
 	protected float invertedCellSize;

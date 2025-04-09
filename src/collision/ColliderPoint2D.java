@@ -1,5 +1,7 @@
 package collision;
 
+// Vector2D, but created for use in collision system to minimize cross-package dependencies as possible
+
 public class ColliderPoint2D {
 	protected static final float FLOAT_EPSILON = 1e-6f;
 	protected static final double PI = 3.141592653589793238462643383279502884197;

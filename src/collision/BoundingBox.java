@@ -2,6 +2,8 @@ package collision;
 
 import utils.Copyable;
 
+// Bounding Box is created for broadphase collision detections; Stores the box extents of a collider shape.
+
 public class BoundingBox implements Copyable<BoundingBox> {
 	private float lowerX = 0;
 	private float lowerY = 0;

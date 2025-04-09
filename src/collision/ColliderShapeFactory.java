@@ -9,6 +9,7 @@ import collision.ColliderShape2D.Circle2D;
 import collision.ColliderShape2D.ConvexPolygon2D;
 import collision.ColliderShape2D.Rect2D;
 
+// Static class used for creating collision shapes
 
 public class ColliderShapeFactory {
 

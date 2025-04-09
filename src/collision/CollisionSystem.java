@@ -11,6 +11,7 @@ import java.util.Set;
 
 import collision.CollisionEventListener.CollisionEvent;
 
+// Manages its collider objects; Checks and resolves collisions per frame.
 
 public class CollisionSystem {
 	

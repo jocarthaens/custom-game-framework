@@ -2,6 +2,8 @@ package collision;
 
 import utils.Copyable;
 
+// Used to determine the bounding radius of collider shapes from its centroid.
+
 public class BoundingCircle implements Copyable<BoundingCircle> {
 	private float cx, cy = 0;
 	private float radius = 0;

@@ -8,6 +8,8 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Stack;
 
+// A sprite rendering system that draws renderable objects that are within the positional bounds of SpriteCamera.
+// The render order of renderable objects is determined by, first, its ySort value, then after sorting them by their ySort, their zIndex values.
 
 public class SpriteRenderingSystem {
 	protected HashMap<RenderUID, RenderContainer> rendererMap;
@@ -208,7 +210,7 @@ public class SpriteRenderingSystem {
 	
 	
 	
-	
+	// Object that stores render-related parameters such as position, size, zIndex and ySort, object to render, and its proxy.
 	protected class RenderContainer {
 		protected boolean isEnabled = true;
 		protected float cx, cy;
@@ -238,7 +240,7 @@ public class SpriteRenderingSystem {
 	
 	
 	
-	
+	// Lightweight proxy object that allows for modification and access to RenderContainer's properties.
 	public class RendererProxy {
 		protected RenderUID assignID;
 		
@@ -375,7 +377,7 @@ public class SpriteRenderingSystem {
 	
 	
 	
-	
+	// Lightweight proxy for handling requests for rendering
 	
 	public class RenderRequestHandler {
 		

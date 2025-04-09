@@ -2,6 +2,8 @@ package collision;
 
 import collision.CollisionSystem.Collider;
 
+// Stores collision-related data
+
 public class ManifoldData {
 	
 	protected boolean isColliding;

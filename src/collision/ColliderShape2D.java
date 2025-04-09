@@ -6,6 +6,8 @@ import java.util.List;
 import collision.ColliderShapeFactory.PolyUtils;
 import collision.CollisionSystem.Collider;
 
+// There are currently 4 types of collider shapes: Circle, Capsule, Rectangle, and Polygon
+
 public abstract class ColliderShape2D<T extends ColliderShape2D<? extends T>> {
 	protected float cx = 0, cy = 0;
 	protected float rotateX = 1, rotateY = 0; // right-facing

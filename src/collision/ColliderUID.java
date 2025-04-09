@@ -2,6 +2,8 @@ package collision;
 
 import java.util.UUID;
 
+// Unique Ccollider ID
+
 public class ColliderUID {
 	public final UUID id;
 	
