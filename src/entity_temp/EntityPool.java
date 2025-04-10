@@ -6,6 +6,9 @@ import entity_temp.GameComponentManager.ComponentRequestHandler;
 import utils.ObjectPool;
 import utils.BitVector;
 
+// Pools Entity instances to improve performance, by initializing a set number of instances 
+// and store them in their reserves for future use.
+
 public class EntityPool extends ObjectPool<Entity> {
 	HashSet<Entity> registeredEntities; // added to protect original set from being modified, create immutable set instead
 	ComponentRequestHandler handler;

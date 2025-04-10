@@ -11,6 +11,9 @@ import javax.sound.sampled.Clip;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 
+// Loads audio files from the "/sounds" path inside the package, and plays them until they are finished playing,
+// in which they are properly closed and disposed off to prevent potential performance issues.
+
 public class AudioPlayer {
 	private List<AudioClip> audioClips;
 	private AudioSettings audioSettings;

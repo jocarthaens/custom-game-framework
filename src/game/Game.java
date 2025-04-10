@@ -1,5 +1,6 @@
 package game;
 
+// The main game class that runs the game loop
 
 public class Game implements Runnable {
 	

@@ -4,6 +4,10 @@ import java.util.HashMap;
 
 import utils.BitVector;
 
+// Manages all types of game components. This class provides different types of GameComponents 
+// that are registered on its repository, and stores it to the corresponding component pool
+// who provided the specified component, when user returns it back.
+
 public class GameComponentManager {
 	protected HashMap<Class<? extends GameComponent>, ComponentPoolInterface<?>> componentMap;
 	protected HashMap<Class<?>, Integer> assignedComponentTypes;

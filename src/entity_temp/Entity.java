@@ -7,20 +7,24 @@ import entity_temp.GameComponentManager.ComponentRequestHandler;
 import utils.Emitter;
 import utils.BitVector;
 
+// The main GameObject class; Contains a map of GameComponents of different types that will be modified by different game systems.
+// Also includes a list of registered listeners that will listen for specific components that are added or removed from the entity instance.
+
 public final class Entity {
 	HashMap<Class<? extends GameComponent>, GameComponent> components;
 	BitVector componentSet;
 	ComponentRequestHandler compHandler;
 	Emitter<Class<? extends GameComponent>> addListener;
 	Emitter<Class<? extends GameComponent>> removeListener;
-	//UID<Entity> id;
+	//UID<Entity> id; //include entity uid
 	
 	public Entity() {
 		components = new HashMap<>();
 		componentSet = new BitVector();
 		addListener = new Emitter<Class<? extends GameComponent>>("onAddComponent");
 		removeListener = new Emitter<Class<? extends GameComponent>>("onRemoveComponent");
-		//id and compHandler?
+		//id where?
+		//how to set componentHandler
 	}
 
 	

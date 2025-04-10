@@ -9,7 +9,7 @@ import collision.ColliderShape2D.ConvexPolygon2D;
 import collision.ColliderShape2D.Rect2D;
 
 // Nearphase collision detection where it detects overlap between 2 collider shapes in greater detail,
-// and determines the minimum translation vector if an overlap do exist between 2 shapes.
+// and determines the Minimum Translation Vector if an overlap do exist between 2 shapes.
 
 public class SATCollisionDetector {
 	protected Stack<ColliderPoint2D> cachedVectors; // caches vectors for reuse

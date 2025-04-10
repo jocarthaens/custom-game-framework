@@ -210,7 +210,9 @@ public class SpriteRenderingSystem {
 	
 	
 	
-	// Object that stores render-related parameters such as position, size, zIndex and ySort, object to render, and its proxy.
+	// Object that stores render-related parameters such as position, size, zIndex and ySort.
+	// Also stores the renderable object to be drawn on the screen, if parameters satisfy, 
+	// and its own proxy that can access and modify its properties.
 	protected class RenderContainer {
 		protected boolean isEnabled = true;
 		protected float cx, cy;
@@ -377,7 +379,7 @@ public class SpriteRenderingSystem {
 	
 	
 	
-	// Lightweight proxy for handling requests for rendering
+	// Lightweight proxy for handling requests to its owner SpriteRenderingSystem instance.
 	
 	public class RenderRequestHandler {
 		

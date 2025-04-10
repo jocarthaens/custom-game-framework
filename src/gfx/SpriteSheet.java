@@ -3,6 +3,7 @@ package gfx;
 import java.awt.image.BufferedImage;
 import java.util.Objects;
 
+// Contains a list of BufferedImages with uniform sizes that can be accessed only by its frame index.
 
 public class SpriteSheet implements Sprite {
 	protected BufferedImage[] sprites;

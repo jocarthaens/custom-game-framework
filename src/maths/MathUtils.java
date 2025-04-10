@@ -1,15 +1,10 @@
 package maths;
 
+	// All math-related static helper methods are found here.
+
 public class MathUtils {
 
-	// approx formulas
-	// add trig functions (sin cos, atan, atan2, asin, acos), angle winding
-	// max/min/clamp (int, float)
-	// cross/dot product 
-	// constants: pi, e, inf, nan, max, min, -inf, +inf, epsilon, degtorad, radtodeg
-	//float is 7 decimals accurate, double is 15 decimals accurate
-	// add sin, cos, tan, atan, atan2, asin, acos
-	
+
 	public static final float FLOAT_EPSILON = 1e-6f;
 	
 	public static final double DOUBLE_EPSILON = 1e-14f;

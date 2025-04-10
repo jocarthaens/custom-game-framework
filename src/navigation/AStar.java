@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Stack;
 
-// Abstract class for AStar that can be used in various ways
+// Abstract class for finding the shortest path/cost to goal state that can be used in various ways
 
 public abstract class AStar<T> {
 	protected PriorityQueue<AStarNode<T>> openSet;

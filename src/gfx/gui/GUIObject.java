@@ -6,7 +6,7 @@ import java.util.List;
 
 import gfx.gui.GUIManager.GUIManagerProxy;
 
-
+// Base GUI Object where all GUI Objects will inherit from
 
 public abstract class GUIObject {
 	

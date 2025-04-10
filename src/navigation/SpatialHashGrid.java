@@ -5,7 +5,8 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-// This class is used for mapping instances with spatial properties in cells using hash maps instead of multi-dimensional arrays
+// This class is used for mapping instances with spatial properties in cells using hash maps instead of multi-dimensional arrays.
+// Utilizes efficient use of Long to store x and y coordinates of a cell.
 
 public abstract class SpatialHashGrid<T> { // what to do if T is mutable?
 	protected float cellSize;

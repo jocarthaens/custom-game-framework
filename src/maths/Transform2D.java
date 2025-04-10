@@ -1,5 +1,6 @@
 package maths;
 
+// Stores and provides methods for manipulating its positional and rotational values.
 
 public class Transform2D {
 	protected static final float FLOAT_EPSILON = 1e-6f;

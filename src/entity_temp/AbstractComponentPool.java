@@ -2,6 +2,8 @@ package entity_temp;
 
 import utils.ObjectPool;
 
+// Abstract class for managing components of the same type via object pooling.
+
 public abstract class AbstractComponentPool<T extends GameComponent> extends ObjectPool<T> implements ComponentPoolInterface<T>{
 	
 	

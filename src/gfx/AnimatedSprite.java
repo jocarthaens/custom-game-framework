@@ -3,6 +3,7 @@ package gfx;
 import java.awt.image.BufferedImage;
 import java.util.Objects;
 
+// Contains an array of BufferedImages and their corresponding frame time. 
 
 public class AnimatedSprite implements Sprite {
 	protected BufferedImage[] sprites;

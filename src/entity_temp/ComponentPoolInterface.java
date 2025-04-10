@@ -1,5 +1,6 @@
 package entity_temp;
 
+// Base interface for all ComponentPools that manages a pool of GameComponents of the same type.
 
 public interface ComponentPoolInterface<T extends GameComponent> {
 	

@@ -2,6 +2,9 @@ package maths;
 
 import utils.Copyable;
 
+// Stores x and y position; Has various vector-related functions to aid in manipulating itself. 
+// Can also be used for storing polar coordinates to lessen the use of expensive trigonometric functions.
+
 public class Vector2D implements Copyable<Vector2D> {
 	protected static final float FLOAT_EPSILON = 1e-6f;
 	protected static final double PI = 3.141592653589793238462643383279502884197;

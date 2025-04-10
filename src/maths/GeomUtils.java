@@ -1,5 +1,7 @@
 package maths;
 
+	// All geometry-related static helper methods are found here.
+
 public class GeomUtils {
 	
 	/*

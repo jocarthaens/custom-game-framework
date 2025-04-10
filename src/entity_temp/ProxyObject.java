@@ -1,5 +1,8 @@
 package entity_temp;
 
+// Intended for use to lightweight proxy objects that processes requests 
+// on behalf of the memory-heavy systems that grants the requests.
+
 public interface ProxyObject {
 
 	abstract void deactivate();

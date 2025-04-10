@@ -5,6 +5,9 @@ import java.util.List;
 
 import utils.BitVector;
 
+// Class that manages both Entities and GameComponents.
+// Contains methods for obtaining and returning both Entities and GameComponent instances
+
 public class EntityManager {
 	//pools entities and emits signals on add/remove/replace components and add/remove entities
 	EntityPool entityPool;

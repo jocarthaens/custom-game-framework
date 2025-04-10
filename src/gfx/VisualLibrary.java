@@ -13,7 +13,8 @@ import java.util.Queue;
 
 import maths.AABB;
 
-// Stores BufferedImages, SpriteSheets, and AnimatedSprites that are grouped into categories by using strings of names
+// Stores BufferedImages, SpriteSheets, and AnimatedSprites that are grouped into categories by names.
+// Also loads all images that are stored within the "/sprites" path inside the package
 
 public class VisualLibrary {
 	protected static final String BASE_PATH = "/sprites";

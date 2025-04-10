@@ -5,6 +5,9 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;;
 
+// Maps GUIObjects (usually GUI Objects without parent GUI Objects) that are displayed on the screen.
+// Useful for GUI focus navigation.
+
 public class GUIMapper {
 	protected float GUICellSize;
 	protected float invertedGUICellSize;

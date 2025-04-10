@@ -4,6 +4,9 @@ import java.awt.Graphics2D;
 import java.util.HashSet;
 import java.util.Set;
 
+// GUIManager manages GUI Objects that are registered in its list by updating and rendering them each frame.
+// Also manages focusable GUI Objects, especially in navigating which focusable object is to be given focus.
+
 public class GUIManager {
 	
 	public enum Direction {

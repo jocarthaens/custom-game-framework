@@ -1,7 +1,9 @@
 package audio;
 
+	// Stores values for music and sound volume.
+
 public class AudioSettings {
-	protected float musicVolume ;
+	protected float musicVolume;
 	protected float soundVolume;
 	
 	public AudioSettings() {

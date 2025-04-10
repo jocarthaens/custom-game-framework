@@ -3,6 +3,8 @@ package audio;
 import javax.sound.sampled.Clip;
 import javax.sound.sampled.FloatControl;
 
+// Base class for audio clips that can be paused, played, and stopped.
+
 public abstract class AudioClip {
 	private final Clip clip;
 	private long clipTime;

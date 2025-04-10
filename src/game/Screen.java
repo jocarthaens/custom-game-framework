@@ -4,13 +4,13 @@ import java.awt.Canvas;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 import java.awt.image.BufferStrategy;
-//import java.util.Random;
 
 import javax.swing.JFrame;
 
 import input.Input;
 import maths.AABB;
 
+// Abstract Screen Class whose role is to render everything on the window.
 
 public abstract class Screen extends JFrame {
 

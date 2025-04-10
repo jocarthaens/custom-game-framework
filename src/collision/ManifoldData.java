@@ -2,7 +2,7 @@ package collision;
 
 import collision.CollisionSystem.Collider;
 
-// Stores collision-related data
+// Stores collision-related data such as collision normal and depth
 
 public class ManifoldData {
 	

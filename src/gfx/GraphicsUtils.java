@@ -15,6 +15,10 @@ import java.util.List;
 
 import javax.imageio.ImageIO;
 
+// Helper class that contains static methods for loading, creating, and modifying images
+// including fonts and rendering text outlines.
+
+
 public class GraphicsUtils {
 	
 	
